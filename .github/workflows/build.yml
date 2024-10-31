@@ -76,4 +76,5 @@ jobs:
           push: true
           # Pushing this to the wsu-gh-actions-demo repo in the sakahle project on DockerHub
           # uniquely tagged with the current commit hash.
-          tags: buckeyechase135/workorderpro:${{ github.sha }}
+          # tags: buckeyechase135/workorderpro:${{ github.sha }}
+          tags: buckeyechase135/workorderpro
