@@ -78,3 +78,4 @@ jobs:
           # uniquely tagged with the current commit hash.
           # tags: buckeyechase135/workorderpro:${{ github.sha }}
           tags: buckeyechase135/workorderpro
+          # Try this for debugging
