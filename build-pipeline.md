@@ -2,6 +2,15 @@
 
 ## Description of Workflow
 
+* The workflow is on the `main` branch
+* It runs on the `ubuntu-latest`
+* It pulls the code using the `checkout@v3`
+* It installs JDK using `setup-java@v3`
+* It executes the gradle build
+* It build the image
+* It utilizes the Dockerhub secrets using `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN`
+* It pushes to Dockerhub using the `build-push-action@v3` action
+* It tags it as `buckeyechase/workorderpro`
 
 
 ![github](images/build.png)
